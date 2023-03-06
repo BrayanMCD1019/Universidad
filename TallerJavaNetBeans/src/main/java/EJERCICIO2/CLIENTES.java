@@ -26,14 +26,14 @@ public class CLIENTES {
         
         if (nuevoSaldo > limiteCredito){
             System.out.println("Su nuevo saldo es de: " + nuevoSaldo);
-            System.out.println("Se excedió el límite de su credito");
+            System.out.println("Se excedio el limite de su credito");
             }
-            else 
-                System.out.println("Su nuevo saldo es de: " + nuevoSaldo);
-                System.out.println("Este esta dentro del limite de credito");
+        else 
+            System.out.println("Su nuevo saldo es de: " + nuevoSaldo);
+            System.out.println("Este esta dentro del limite de credito");
       
         do{
-           System.out.print("¿Desea ingresar las clientes? [S/N]: ");
+           System.out.print("Desea ingresar las clientes? [S/N]: ");
            OP = deliver.next().charAt(0);
            OP = Character.toUpperCase(OP);
         }while ((OP != 'S') && (OP != 'N' ));
